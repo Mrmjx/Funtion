@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="30dp"
+    android:paddingLeft="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/dooebel_open"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开启有线门铃"/>
+
+        <Button
+            android:id="@+id/dooebel_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="关闭有线门铃"/>
+
+        <Button
+            android:id="@+id/smart_home_open"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开启智能家居IO"/>
+
+        <Button
+            android:id="@+id/smart_home_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="关闭智能家居IO"/>
+
+
+        <Button
+            android:id="@+id/door_lock_open"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开启门锁"/>
+
+        <Button
+            android:id="@+id/door_lock_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="关闭门锁"/>
+
+        <Button
+            android:id="@+id/camera_light_open"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开启摄像头灯"/>
+
+        <Button
+            android:id="@+id/camera_light_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="关闭摄像头灯"/>
+
+        <Button
+            android:id="@+id/key_light_open"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开启键盘灯"/>
+
+        <Button
+            android:id="@+id/key_light_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="关闭键盘灯"/>
+
+        <Button
+            android:id="@+id/lcd_open"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开启LCD背光灯"/>
+
+        <Button
+            android:id="@+id/lcd_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="关闭LCD背光灯"/>
+        <Button
+            android:id="@+id/restart"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="机器重启"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp">
+
+        <Button
+            android:id="@+id/get_finger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取指纹"/>
+
+        <Button
+            android:id="@+id/make_finger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="生成特征码"/>
+
+        <Button
+            android:id="@+id/make_finger_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="第二次生成特征码"/>
+
+        <Button
+            android:id="@+id/compose_finger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="合成"/>
+
+        <Button
+            android:id="@+id/save_to_flash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="存储到Flash指纹数据库"/>
+
+        <Button
+            android:id="@+id/read"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="从flash中读文件到特征缓存区"/>
+
+        <Button
+            android:id="@+id/upload_client"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="特征缓存区文件上传给主机"/>
+
+        <Button
+            android:id="@+id/updata_form_cilent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="从主机下载数据到指纹模块特征缓冲区"/>
+
+        <Button
+            android:id="@+id/compare_fingers_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="检测指纹是否存在"/>
+
+        <Button
+            android:id="@+id/finger_mould_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="flash中存储指纹模板个数"/>
+
+        <Button
+            android:id="@+id/finger_mould_delete_choice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="删除选中位置的flash指纹"/>
+
+        <Button
+            android:id="@+id/read_system_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="读取系统配置参数"/>
+
+
+        <Button
+            android:id="@+id/compare_fingers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="精确对比"/>
+
+        <Button
+            android:id="@+id/delete_finger_flash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="清空指纹库"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp">
+
+        <Button
+            android:id="@+id/write_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="上位机将数据写入记事本指定Flash页"/>
+
+        <Button
+            android:id="@+id/read_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="读取记事本指定页数据"/>
+
+        <Button
+            android:id="@+id/read_flash_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="读取指纹库注册列表信息"/>
+
+        <Button
+            android:id="@+id/finish"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="销毁当前activity"/>
+
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:text="门卡ID : "/>
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
